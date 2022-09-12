@@ -1,0 +1,120 @@
+  body {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main {
+    width: 800px;
+    height: 600px;
+    background: rgb(82, 42, 2);
+    background: radial-gradient(circle, rgb(210, 208, 86) 0%, rgb(79, 194, 48) 71%, rgb(42, 175, 10) 100%);
+    padding: 8px;
+    border: 2px solid #577e05;
+  }
+
+  .lf {
+    border: 2px solid white;
+    position: absolute;
+    height: 600px;
+    width: 400px;
+  }
+
+  .lf-penalty {
+    border: 1.5px solid white;
+    position: absolute;
+    height: 300px;
+    width: 120px;
+    margin-top: 150px;
+  }
+
+  .lf-goal {
+    border: 1.5px solid white;
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    margin-top: 220px;
+  }
+
+  .lf-penalty-semi-circle {
+    width: 130px;
+    height: 250px;
+    border: 1.5px solid white;
+    border-radius: 0 130px 130px 0;
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 27px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+
+  .lf-semi-circle {
+    width: 110px;
+    height: 220px;
+    border-radius: 110px 0 0 110px;
+    border: 2px solid white;
+    position: absolute;
+    margin-left: 288px;
+    margin-top: 200px;
+  }
+
+  .lf-semi-circle-inner {
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 305px;
+    margin-left: 386px;
+  }
+
+  .rt {
+    border: 2px solid white;
+    position: absolute;
+    height: 600px;
+    width: 400px;
+    margin-left: 400px;
+  }
+
+  .rt-penalty {
+    border: 1.5px solid white;
+    position: absolute;
+    height: 300px;
+    width: 120px;
+    margin-top: 150px;
+    margin-left: 275px;
+  }
+
+  .rt-goal {
+    border: 1.5px solid white;
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    margin-top: 220px;
+    margin-left: 345px;
+  }
+
+  .rt-penalty-semi-circle {
+    width: 130px;
+    height: 250px;
+    border: 1.5px solid white;
+    border-radius: 130px 0 0 130px;
+    position: absolute;
+    margin-top: 173px;
+    margin-left: 238px;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+  }
+
+  .rt-semi-circle {
+    width: 110px;
+    height: 220px;
+    border-radius: 0 110px 110px 0;
+    border: 2px solid white;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 200px;
+  }
